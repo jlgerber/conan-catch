@@ -6,15 +6,15 @@ from conans.tools import download, unzip, check_sha256
 
 class ArbitraryName(ConanFile):
     name = "catch"
-    version = "1.5.9"
+    version = "1.6.0"
     branch = "stable"
     license = "Boost"
-    url = "http://github.com/sourcedelica/conan-catch"
+    url = "http://github.com/jlgerber/conan-catch"
     settings = None
 
-    ZIP_FOLDER_NAME = "Catch-1.5.9"
-    ZIP_URL_NAME = 'v1.5.9.zip'
-    FILE_SHA = 'ce8ca733b04a1ed6a40927a5c2241b23ceee94cdbe130d67d8f9eb90537fc947'
+    ZIP_FOLDER_NAME = "Catch-1.6.0"
+    ZIP_URL_NAME = 'v1.6.0.zip'
+    FILE_SHA = '391e5e1d62bba85a9dfd6685f96d5673e7cca217c3d0756120e78c8496946764'
 
     def source(self):
         zip_name = "catch.zip"
